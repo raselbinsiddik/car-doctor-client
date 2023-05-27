@@ -41,7 +41,7 @@ const AuthProvider = ({ children }) => {
                const loggedUser = {
                    email: currentUser.email
                }
-               fetch('http://localhost:5000/jwt', {
+               fetch('https://car-doctor-client-4f2e5.web.app/jwt', {
                    method: 'POST',
                    headers: {
                        'content-type': 'application/json'
